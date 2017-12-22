@@ -6,3 +6,7 @@ const path = require('path');
 describe('index', () => {
   // there's stuff in here, too
 })
+
+it('calls console.error()', () => {
+  // this is where the tests are!
+})
