@@ -10,3 +10,6 @@ describe('index', () => {
 it('calls console.error()', () => {
   // this is where the tests are!
 })
+jsdom({
+  src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
+})
